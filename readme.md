@@ -64,3 +64,24 @@
     task4: rename tablename
         alter table station
         rename to new_station;
+
+#### Insert ####
+
+    task1: insert data into table
+
+    $ insert into new_station(st_id,st_name,state_name,st_city) values(1,'kakinada','kakinada','andhra')
+
+    task2: inserting mutiple data
+    $ insert into new_station(st_id,st_name,state_name,st_city) values(2,'gauhati','assam','gauhati'),(3,'hyderbad','telangana','hyderabad')
+
+    task3: check data inside the table
+    $ select * from new_staion
+
+    task4: null values
+    $ insert into new_station(st_id,st_city) values(4,'kolkata'),(5,'delhi')
+    $ select * from new_station
+
+![image](demo.png)
+
+
+
