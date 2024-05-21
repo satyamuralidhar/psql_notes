@@ -83,5 +83,45 @@
 
 ![image](demo.png)
 
+#### Select ####
+
+    task: select only specific values
+
+    $ select st_id,st_city from new_station
+
+#### Operators ####
+    Arthemtic:
+    ---------
+    +   => a+b= addtion
+    -   => a-b= subtraction
+    *   => a*b= multiplication
+    /   => a/b=  division
+    %   => a%b= moduls
+    |/  => a|/b= <a squre root b>
+    ! 5! => 120
+    ||/ => a||/b= < a qube root b>
+
+    Comparision operators:
+    ---------------------
+    =   a==b    => true
+    !=  is not  => a!=b
+    <>  a<>b    => true
+    > a>b
+    < a<b 
+    >= 
+    <=
+
+    Logical Operators:
+    ------------------
+    AND
+    NOT 
+    OR
+
+    Bit String Operators:
+    ---------------------
+    &   =>  A & B 
+    |   =>  A|B 
+
+    [reference](https://www.postgresql.org/docs/6.3/c09.htm)
 
 
